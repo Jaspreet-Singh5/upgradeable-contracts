@@ -33,19 +33,3 @@ contract Transparent {
         }
     }
 }
-
-contract Delegate1 {
-    uint256 public a;
-
-    function incrementNumberBy1() external {
-        a += 1;
-    }
-}
-
-contract Delegate2 {
-    uint256 public a;
-
-    function incrementNumberBy5() external {
-        a += 5;
-    }
-}
